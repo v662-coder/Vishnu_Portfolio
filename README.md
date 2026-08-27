@@ -48,3 +48,50 @@ Dark glass theme · Aurora gradient background · Scroll-reveal animations · Co
 ---
 
 ## 🏗️ Project Structure
+vishnu-portfolio/
+├── public/ # Static assets (images, favicon)
+├── src/
+│ ├── components/ # Reusable UI components (Navbar, Hero, Projects, etc.)
+│ ├── data/ # 🔥 Config files (portfolioData.js, projects.js)
+│ ├── hooks/ # Custom hooks (useCountUp, etc.)
+│ ├── styles/ # Global CSS (tailwind directives)
+│ ├── App.jsx # Main app component
+│ └── main.jsx # Entry point
+├── .env # Environment variables (EmailJS keys)
+├── index.html
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
+
+
+---
+
+## ⚙️ Configuration (Update Content Easily)
+
+All the portfolio content is managed via a single configuration file.  
+To update your personal info, projects, skills, and stats, simply edit:
+
+📁 **`src/data/portfolioData.js`**
+
+Inside this file, you'll find the following sections:
+
+| Object | Description |
+| :--- | :--- |
+| `personalInfo` | Name, bio, roles, availability, resume link, social links |
+| `stats` | Years of experience, projects shipped, etc. |
+| `projects` | Array of project objects (title, tech stack, features, links) |
+| `skillCategories` | Categorized skills with proficiency levels (Frontend, Backend, etc.) |
+
+> 💡 *No need to touch any JSX files to update text — just change the data file!*
+
+---
+
+## 🔐 Environment Variables (EmailJS Setup)
+
+To make the contact form work, you need to create a `.env` file in the root directory and add your EmailJS credentials:
+
+```env
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
