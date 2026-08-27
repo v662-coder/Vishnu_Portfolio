@@ -144,6 +144,18 @@ export const projects = [
     live: 'https://nediaz.com',
     caseStudy: '',
   },
+    {
+    id: 'blog-x',
+    title: 'Blog-X App',
+    category: ['React'],
+    image: '/projects/blog-x.jpg',
+    description: 'A text-blogging web app with user authentication and authorization powered by Firebase.',
+    tech: ['React', 'Firebase'],
+    features: ['Firebase authentication', 'Create & publish blog posts'],
+    github: 'https://github.com/v662-coder/Blog-X',
+    live: 'https://blog-x-u8gr.vercel.app/',
+    caseStudy: '',
+  },
   {
     id: 'rec-placement-cell',
     title: 'REC Placement Cell',
@@ -183,18 +195,7 @@ export const projects = [
     live: '',
     caseStudy: '',
   },
-  {
-    id: 'blog-x',
-    title: 'Blog-X App',
-    category: ['React'],
-    image: '/projects/blog-x.jpg',
-    description: 'A text-blogging web app with user authentication and authorization powered by Firebase.',
-    tech: ['React', 'Firebase'],
-    features: ['Firebase authentication', 'Create & publish blog posts'],
-    github: 'https://github.com/v662-coder/Blog-X',
-    live: '',
-    caseStudy: '',
-  },
+
   {
     id: 'ecommerce-website',
     title: 'E-Commerce Website',
