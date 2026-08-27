@@ -45,25 +45,6 @@ Dark glass theme · Aurora gradient background · Scroll-reveal animations · Co
 - ✅ **Contact Form** – Fully functional contact form powered by EmailJS.
 - ✅ **Performance Optimized** – Lightweight, fast loading, and SEO-friendly.
 
----
-
-## 🏗️ Project Structure
-vishnu-portfolio/
-├── public/ # Static assets (images, favicon)
-├── src/
-│ ├── components/ # Reusable UI components (Navbar, Hero, Projects, etc.)
-│ ├── data/ # 🔥 Config files (portfolioData.js, projects.js)
-│ ├── hooks/ # Custom hooks (useCountUp, etc.)
-│ ├── styles/ # Global CSS (tailwind directives)
-│ ├── App.jsx # Main app component
-│ └── main.jsx # Entry point
-├── .env # Environment variables (EmailJS keys)
-├── index.html
-├── package.json
-├── tailwind.config.js
-├── vite.config.js
-└── README.md
-
 
 ---
 
