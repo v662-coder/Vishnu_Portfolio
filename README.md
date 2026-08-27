@@ -1,24 +1,50 @@
 # Vishnu — Full Stack MERN Developer Portfolio
 
-A premium, animated developer portfolio built with **React 19-style hooks (React 18 runtime), Vite, Tailwind CSS, Framer Motion, Lenis and EmailJS**.
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vishnu-portfolio-topaz.vercel.app/)
+[![Built with Vite](https://img.shields.io/badge/Built_with-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-Dark glass theme · aurora background · scroll-reveal animations · config-driven content.
+A premium, animated developer portfolio built with **React 19-style hooks (React 18 runtime), Vite, Tailwind CSS, Framer Motion, Lenis, and EmailJS**.
+
+> **Live URL:** [https://vishnu-portfolio-topaz.vercel.app/](https://vishnu-portfolio-topaz.vercel.app/)
+
+Dark glass theme · Aurora gradient background · Scroll-reveal animations · Config-driven content · Mobile responsive.
+
+---
+
+## ✨ Live Demo
+
+🚀 Check out the live version here:  
+**[https://vishnu-portfolio-topaz.vercel.app/](https://vishnu-portfolio-topaz.vercel.app/)**
+
+---
 
 ## 🚀 Tech Stack
-- React (Vite)
-- Tailwind CSS
-- Framer Motion
-- Lenis (Smooth Scroll)
-- EmailJS
+
+| Category | Technologies |
+| :--- | :--- |
+| **Frontend Framework** | React 18 (Vite) |
+| **Styling** | Tailwind CSS, CSS3 |
+| **Animations** | Framer Motion, Lenis (Smooth Scroll) |
+| **Icons** | Lucide React, React Icons (Fa, Si) |
+| **Forms & Email** | EmailJS (Contact Form) |
+| **Deployment** | Vercel |
+
+---
 
 ## ✨ Features
-- Fully responsive design
-- Dark glass-morphism UI
-- Automatic scroll animations
-- Single config file (`src/data/portfolioData.js`) to update all content
-- Contact form with EmailJS integration
 
-## 📦 Run Locally
-```bash
-npm install
-npm run dev
+- ✅ **Fully Responsive** – Looks perfect on mobile, tablet, and desktop.
+- ✅ **Dark Glass-Morphism UI** – Modern frosted glass aesthetic with blur effects.
+- ✅ **Aurora Gradient Background** – Dynamic animated gradient for a premium feel.
+- ✅ **Smooth Scrolling** – Lenis-powered smooth scroll with inertia.
+- ✅ **Scroll-Reveal Animations** – Elements fade and slide in as you scroll using Framer Motion.
+- ✅ **Typing Effect** – Dynamic role rotation in the Hero section.
+- ✅ **Orbiting Tech Icons** – Animated 3D-style orbit showcasing core skills.
+- ✅ **Config-Driven Content** – Edit `src/data/portfolioData.js` to update all text, stats, projects, and social links without touching the JSX.
+- ✅ **Contact Form** – Fully functional contact form powered by EmailJS.
+- ✅ **Performance Optimized** – Lightweight, fast loading, and SEO-friendly.
+
+---
+
+## 🏗️ Project Structure
