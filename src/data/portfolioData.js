@@ -15,14 +15,14 @@ export const personalInfo = {
     "Node.js Developer",
   ],
   experience: "2+ Years",
-  location: "India",
+  location: "Gorakhpur, Uttar Pradesh , India",
   email: "vishnuchaurasiya1101@gmail.com",
   phone: "+91 7991510913",
   availability: "Open to Work",
   resumeLink: "/Vishnu_resume_FullStack.pdf",
   // resumeLink: 'https://drive.google.com/file/d/1nXUUd0ZsktUyncf6eIGPMjqeKN8HLHP4/view?usp=sharing',
   shortBio:
-    "I build fast, secure and SEO-friendly web applications with the MERN stack — from pixel-perfect UI to production-ready APIs.",
+    "I architect and build production-ready full-stack applications with a focus on speed, security, and SEO — integrating AI-driven features, real-time communication, and scalable system design to deliver intelligent, user-centric solutions.s.",
   bio: [
     "I'm a passionate Full Stack Developer with 2+ years of experience building scalable web applications using the MERN stack.",
     "I specialize in React.js, Node.js, Express.js, MongoDB, MySQL, REST APIs, JWT Authentication, RBAC, Socket.IO, SEO optimization, and responsive UI development.",
@@ -55,6 +55,7 @@ export const skillCategories = [
     skills: [
       { name: "React.js", level: 96 },
       { name: "Next.js", level: 75 },
+      { name: "Vue.js", level: 77 },          
       { name: "JavaScript (ES6+)", level: 94 },
       { name: "TypeScript", level: 70 },
       { name: "HTML5", level: 95 },
@@ -64,26 +65,33 @@ export const skillCategories = [
     ],
   },
   {
-    title: "Backend",
+    title: "Backend & Languages",
     skills: [
       { name: "Node.js", level: 88 },
       { name: "Express.js", level: 88 },
+      { name: "Python", level: 70 },          
+      { name: "Java", level: 65 },             
       { name: "REST APIs", level: 90 },
       { name: "JWT Auth", level: 95 },
       { name: "RBAC", level: 80 },
       { name: "Socket.IO", level: 78 },
+      { name: "Playwright", level: 75 },      
     ],
   },
   {
-    title: "Database",
+    title: "Database & Caching",
     skills: [
       { name: "MongoDB", level: 92 },
       { name: "MySQL", level: 88 },
+      { name: "Redis", level: 85 },           
     ],
   },
   {
-    title: "Tools",
+    title: "Cloud, Mobile & Architecture",    
     skills: [
+      { name: "AWS (EC2/S3/Amplify)", level: 70 }, 
+      { name: "Capacitor", level: 70 },             
+      { name: "System Design", level: 80 },        
       { name: "Git & GitHub", level: 90 },
       { name: "Postman", level: 85 },
       { name: "VS Code", level: 95 },
@@ -594,7 +602,7 @@ export const navLinks = [
 
 // Fill in your EmailJS credentials to enable the contact form.
 export const emailjsConfig = {
-  serviceId: "YOUR_EMAILJS_SERVICE_ID",
-  templateId: "YOUR_EMAILJS_TEMPLATE_ID",
-  publicKey: "YOUR_EMAILJS_PUBLIC_KEY",
+   serviceId: process.env.REACT_APP_EMAILJS_SERVICE_ID,
+  templateId: process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+  publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
 };

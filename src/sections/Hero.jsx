@@ -1,8 +1,23 @@
 import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import { ArrowRight, Download, Sparkles } from 'lucide-react'
-import { FaReact, FaNodeJs, FaGitAlt } from 'react-icons/fa'
-import { SiMongodb, SiExpress, SiTailwindcss } from 'react-icons/si'
+
+// ----- OLD IMPORTS (React, Node, Git) -----
+import { FaReact, FaNodeJs, FaGitAlt, FaPython } from 'react-icons/fa'
+
+// ----- NEW IMPORTS (Saare naye icons ke liye) -----
+import { 
+  SiMongodb, 
+  SiExpress, 
+  SiTailwindcss,
+  SiMysql,           // MySQL
+  SiVuedotjs,        // Vue.js
+  SiJavascript,      // JavaScript
+  SiRedis,           // Redis (System Design)
+  SiSocketdotio,     // Socket.IO
+  SiCapacitor,       // Capacitor (Mobile)
+} from 'react-icons/si'
+
 import { personalInfo, stats } from '../data/portfolioData'
 import useCountUp from '../hooks/useCountUp'
 import { useInView } from 'react-intersection-observer'
@@ -52,14 +67,23 @@ function StatCard({ stat, index }) {
   )
 }
 
+// ----- ORBIT ICONS (Aapka updated array - perfect hai) -----
 const orbitIcons = [
+  // Core Frontend/Backend
   { Icon: FaReact, color: '#61DAFB' },
   { Icon: FaNodeJs, color: '#8CC84B' },
   { Icon: SiMongodb, color: '#47A248' },
   { Icon: SiExpress, color: '#E7E7E7' },
   { Icon: SiTailwindcss, color: '#38BDF8' },
   { Icon: FaGitAlt, color: '#F1502F' },
-]
+  { Icon: SiMysql, color: '#4479A1' },          // MySQL
+  { Icon: FaPython, color: '#3776AB' },         // Python / AI (FaPython use kiya hai)
+  { Icon: SiVuedotjs, color: '#4FC08D' },       // Vue.js
+  { Icon: SiJavascript, color: '#F7DF1E' },     // JavaScript
+  { Icon: SiRedis, color: '#DC382D' },          // Redis (System Design)
+  { Icon: SiSocketdotio, color: '#010101' },    // Socket.IO
+  { Icon: SiCapacitor, color: '#119EFF' },      // Capacitor (Mobile)
+];
 
 function OrbitingIcons() {
   return (
