@@ -207,7 +207,7 @@ export const projects = [
     category: ["React"],
     image: "/projects/blog-x.jpg",
     description:
-      "A text-blogging web app with user authentication and authorization powered by Firebase.",
+      "A responsive text-blogging web application where users can securely register, authenticate, create, edit, and publish blog posts, with Firebase-powered authentication, authorization, and real-time data management.",
     tech: ["React", "Firebase"],
     features: ["Firebase authentication", "Create & publish blog posts"],
     github: "https://github.com/v662-coder/Blog-X",
